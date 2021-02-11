@@ -10,9 +10,9 @@ cHandlingDataMgr mod_HandlingManager;
 const char *HandlingFilename = "HANDLING.CFG";
 
 const char VehicleNames[NUMHANDLINGS][14] = {
-	"LANDSTAL",
+	"SUV", //"LANDSTAL", (custom)
 	"RIVIERA", //"IDAHO",
-	"STINGER",
+	"BOXSTA", //"STINGER", (custom)
 	"FREIGHT", //"LINERUN",
 	"NOVA", // "PEREN",
 	"BEAMER", //"SENTINEL",
@@ -21,7 +21,7 @@ const char VehicleNames[NUMHANDLINGS][14] = {
 	"GARBAGE", //"TRASH",
 	"LIMO", //"STRETCH",
 	"RELIANT", //"MANANA",
-	"INFERNUS",
+	"LAMBO", //"INFERNUS",
 	"CARRIER", //"BLISTA",
 	"TRANSIT", //"PONY",
 	"LUTON", //"MULE",
@@ -38,7 +38,7 @@ const char VehicleNames[NUMHANDLINGS][14] = {
 	"POLICE",
 	"SWATVAN", //"ENFORCER",
 	"ARMOUR", //"SECURICA",
-	"BANSHEE",
+	"VIPER", //"BANSHEE" (custom)
 	"POLBOAT", //"PREDATOR",
 	"BUS",
 	"TANK", //"RHINO",
@@ -48,25 +48,25 @@ const char VehicleNames[NUMHANDLINGS][14] = {
 	"DODO",
 	"COACH",
 	"CABBIE",
-	"STALLION",
-	"RUMPO",
-	"RCBANDIT",
-	"BELLYUP",
-	"MRWONGS",
+	"MUSTANG", //"STALLION", (custom)
+	"RAMVAN", //"RUMPO", (custom)
+	"RCBUG", //"RCBANDIT", (custom)
+	"FIAT", //"BELLYUP", (custom)
+	"HUMVEE2", //"MRWONGS", (custom)
 	"MAFIA",
 	"YARDIE",
 	"YAKUZA",
-	"DIABLOS",
+	"IMPALA", //"DIABLOS", (custom)
 	"COLUMB",
 	"HOODS",
-	"AIRTRAIN",
+	"AEROPLNE", //"AIRTRAIN", (custom)
 	"DEADDODO",
-	"SPEEDER",
-	"REEFER",
+	"SPDBOAT", //"SPEEDER", (custom)
+	"FSHBOAT", //"REEFER", (custom)
 	"PANLANT",
 	"FLATBED",
-	"YANKEE",
-	"BORGNINE",
+	"LUTON2", //"YANKEE", (custom)
+	"CRUISER", //"BORGNINE", (custom)
 };
 
 cHandlingDataMgr::cHandlingDataMgr(void)
